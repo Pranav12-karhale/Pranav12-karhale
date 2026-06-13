@@ -66,15 +66,15 @@ and learning networks, security, Low Level Programming, trading.
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=pranavv&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub stats"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=Pranav12-karhale&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="GitHub stats"/>
 &nbsp;&nbsp;
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=pranavv&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top languages"/>
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pranav12-karhale&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Top languages"/>
 
 </div>
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=pranavv&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Pranav12-karhale&theme=tokyonight&hide_border=true" alt="GitHub streak" />
 
 </div>
 
