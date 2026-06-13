@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,28:0B6E69,58:6D5DF6,100:FF7A3D&height=245&section=header&text=Pranav%20Karhale&fontSize=52&fontColor=FFFFFF&animation=twinkling&fontAlignY=36&desc=%20%7C%20B.Tech%20IT%20%40%20IIIT%20Allahabad&descAlignY=58&descSize=17" width="100%" alt="Pranav Karhale animated gradient header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050816,28:0B6E69,58:6D5DF6,100:FF7A3D&height=245&section=header&text=Pranav%20Karhale&fontSize=52&fontColor=FFFFFF&animation=twinkling&fontAlignY=36&desc=%20B.Tech%20IT%20%40%20IIIT%20Allahabad&descAlignY=58&descSize=17" width="100%" alt="Pranav Karhale animated gradient header" />
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=21&duration=2300&pause=650&color=73E2A7&center=true&vCenter=true&width=940&lines=Designing+full-stack+products+with+AI+inside;Building+LangGraph+agents,+RAG,+and+MCP+systems;Shipping+cloud-ready+apps+with+Docker+and+Kubernetes;Solving+CP+problems+to+keep+implementation+speed+sharp" alt="Animated intro typing text" />
 
