@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Live Network Background</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #121010;
+      --green: #008a16;
+      --green-hot: #00d52d;
+      --white: #f4f4f4;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+      overflow: hidden;
+      background: var(--bg);
+      color: var(--white);
+      font-family: Consolas, "Courier New", monospace;
+    }
+
+    canvas {
+      display: block;
+      width: 100vw;
+      height: 100vh;
+      background: var(--bg);
+    }
+
+    .label {
+      position: absolute;
+      left: clamp(22px, 7vw, 136px);
+      top: clamp(24px, 12vh, 128px);
+      pointer-events: none;
+      text-shadow: 0 0 18px rgba(0, 138, 22, 0.25);
+    }
+
+    .label small,
+    .label h1,
+    .label p {
+      margin: 0;
+    }
+
+    .label small {
+      display: block;
+      margin-bottom: 68px;
+      font-size: clamp(16px, 1.5vw, 21px);
+      font-weight: 700;
+      letter-spacing: 0.01em;
+    }
+
+    .label h1 {
+      font-size: clamp(42px, 6vw, 86px);
+      font-weight: 900;
+      letter-spacing: 0.02em;
+      line-height: 1;
+    }
+
+    .label p {
+      max-width: 760px;
+      margin-top: 28px;
+      font-size: clamp(16px, 1.7vw, 25px);
+      font-weight: 700;
+      line-height: 1.45;
+    }
+
+    .accent {
+      color: var(--green-hot);
+    }
+  </style>
+</head>
+<body>
+  <canvas id="network" aria-label="Mouse reactive green network background"></canvas>
+  <section class="label" aria-hidden="true">
+    <small>Command Center</small>
+    <h1>Pranav Karhale</h1>
+    <p>Full-stack developer | AI/ML builder | CP grinder | <span class="accent">Quant enthusiast</span></p>
+  </section>
+
+  <script>
+    (() => {
+      const canvas = document.getElementById("network");
+      const ctx = canvas.getContext("2d");
+      const pointer = { x: -9999, y: -9999, active: false };
+      const points = [];
+      const prefersReduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+      let width = 0;
+      let height = 0;
+      let dpr = 1;
+      let tick = 0;
+
+      function rand(min, max) {
+        return min + Math.random() * (max - min);
+      }
+
+      function resize() {
+        dpr = Math.min(window.devicePixelRatio || 1, 2);
+        width = window.innerWidth;
+        height = window.innerHeight;
+        canvas.width = Math.floor(width * dpr);
+        canvas.height = Math.floor(height * dpr);
+        canvas.style.width = `${width}px`;
+        canvas.style.height = `${height}px`;
+        ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+        buildPoints();
+      }
+
+      function buildPoints() {
+        points.length = 0;
+        const count = Math.round(Math.max(72, Math.min(155, (width * height) / 8800)));
+        for (let i = 0; i < count; i += 1) {
+          const x = rand(-80, width + 80);
+          const y = rand(20, height + 80);
+          points.push({
+            x,
+            y,
+            bx: x,
+            by: y,
+            vx: rand(-0.16, 0.16),
+            vy: rand(-0.13, 0.13),
+            phase: rand(0, Math.PI * 2),
+            radius: rand(1.4, 2.6)
+          });
+        }
+      }
+
+      function updatePoint(point, index) {
+        const waveX = Math.sin(tick * 0.012 + point.phase) * 10;
+        const waveY = Math.cos(tick * 0.01 + point.phase) * 7;
+        const targetX = point.bx + waveX;
+        const targetY = point.by + waveY;
+
+        point.vx += (targetX - point.x) * 0.0025;
+        point.vy += (targetY - point.y) * 0.0025;
+
+        if (pointer.active) {
+          const dx = point.x - pointer.x;
+          const dy = point.y - pointer.y;
+          const distSq = dx * dx + dy * dy;
+          const radius = 190;
+
+          if (distSq < radius * radius && distSq > 0.001) {
+            const dist = Math.sqrt(distSq);
+            const force = (1 - dist / radius) * 0.72;
+            point.vx += (dx / dist) * force;
+            point.vy += (dy / dist) * force;
+          }
+        }
+
+        point.vx *= 0.92;
+        point.vy *= 0.92;
+        point.x += point.vx;
+        point.y += point.vy;
+
+        if (point.x < -120 || point.x > width + 120 || point.y < -120 || point.y > height + 120) {
+          point.x = point.bx;
+          point.y = point.by;
+          point.vx = 0;
+          point.vy = 0;
+        }
+
+        point.phase += 0.001 + index * 0.000001;
+      }
+
+      function draw() {
+        tick += prefersReduced ? 0 : 1;
+        ctx.clearRect(0, 0, width, height);
+        ctx.fillStyle = "#121010";
+        ctx.fillRect(0, 0, width, height);
+
+        if (!prefersReduced) {
+          points.forEach(updatePoint);
+        }
+
+        ctx.lineWidth = 1;
+        for (let i = 0; i < points.length; i += 1) {
+          const a = points[i];
+          for (let j = i + 1; j < points.length; j += 1) {
+            const b = points[j];
+            const dx = a.x - b.x;
+            const dy = a.y - b.y;
+            const distance = Math.hypot(dx, dy);
+
+            if (distance < 128) {
+              const alpha = (1 - distance / 128) * 0.58;
+              ctx.strokeStyle = `rgba(0, 138, 22, ${alpha})`;
+              ctx.beginPath();
+              ctx.moveTo(a.x, a.y);
+              ctx.lineTo(b.x, b.y);
+              ctx.stroke();
+            }
+          }
+        }
+
+        if (pointer.active) {
+          const pulse = 0.5 + Math.sin(tick * 0.08) * 0.5;
+          const gradient = ctx.createRadialGradient(pointer.x, pointer.y, 0, pointer.x, pointer.y, 210);
+          gradient.addColorStop(0, `rgba(0, 213, 45, ${0.12 + pulse * 0.06})`);
+          gradient.addColorStop(1, "rgba(0, 213, 45, 0)");
+          ctx.fillStyle = gradient;
+          ctx.beginPath();
+          ctx.arc(pointer.x, pointer.y, 210, 0, Math.PI * 2);
+          ctx.fill();
+        }
+
+        points.forEach((point, index) => {
+          const glow = 0.62 + Math.sin(tick * 0.04 + point.phase + index) * 0.28;
+          ctx.fillStyle = `rgba(0, 179, 35, ${glow})`;
+          ctx.beginPath();
+          ctx.arc(point.x, point.y, point.radius, 0, Math.PI * 2);
+          ctx.fill();
+        });
+
+        requestAnimationFrame(draw);
+      }
+
+      window.addEventListener("resize", resize);
+      window.addEventListener("pointermove", (event) => {
+        pointer.x = event.clientX;
+        pointer.y = event.clientY;
+        pointer.active = true;
+      });
+      window.addEventListener("pointerleave", () => {
+        pointer.active = false;
+      });
+      window.addEventListener("blur", () => {
+        pointer.active = false;
+      });
+
+      resize();
+      draw();
+    })();
+  </script>
+</body>
+</html>
