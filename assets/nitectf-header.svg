@@ -2,8 +2,77 @@
   <title id="title">Pranav Karhale profile header</title>
   <desc id="desc">Dark terminal themed GitHub README header with green connected network lines and white monospace text.</desc>
   <rect width="1400" height="520" rx="4" fill="#121010"/>
+  <style>
+    .network-drift {
+      animation: network-drift 12s ease-in-out infinite;
+    }
 
-  <g opacity="0.48" stroke="#008a16" stroke-width="1.15" fill="none">
+    .web-flow polyline {
+      stroke-dasharray: 28 210;
+      stroke-dashoffset: 0;
+      animation: network-flow 5.8s linear infinite;
+      filter: drop-shadow(0 0 4px #008a16);
+    }
+
+    .web-flow polyline:nth-child(2n) {
+      animation-duration: 7.2s;
+      animation-direction: reverse;
+    }
+
+    .web-flow polyline:nth-child(3n) {
+      animation-delay: -2.1s;
+    }
+
+    .web-nodes circle {
+      animation: node-pulse 2.9s ease-in-out infinite;
+      transform-box: fill-box;
+      transform-origin: center;
+    }
+
+    .web-nodes circle:nth-child(3n) {
+      animation-delay: -0.9s;
+    }
+
+    .web-nodes circle:nth-child(4n) {
+      animation-delay: -1.7s;
+    }
+
+    @keyframes network-flow {
+      to {
+        stroke-dashoffset: -238;
+      }
+    }
+
+    @keyframes node-pulse {
+      0%, 100% {
+        opacity: 0.72;
+        transform: scale(0.82);
+      }
+      50% {
+        opacity: 1;
+        transform: scale(1.28);
+      }
+    }
+
+    @keyframes network-drift {
+      0%, 100% {
+        transform: translate(0, 0);
+      }
+      50% {
+        transform: translate(0, -5px);
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .network-drift,
+      .web-flow polyline,
+      .web-nodes circle {
+        animation: none;
+      }
+    }
+  </style>
+
+  <g class="network-drift" opacity="0.48" stroke="#008a16" stroke-width="1.15" fill="none">
     <polyline points="34,343 92,312 165,329 223,392 317,362 406,386 520,338 621,350 724,392 827,337 936,365 1038,320 1147,345 1266,314 1376,343"/>
     <polyline points="54,201 94,313 154,427 230,391 253,497 348,470 406,386 431,493 548,493 621,350"/>
     <polyline points="164,329 190,254 270,282 318,363 357,266 452,272 520,338 548,238 661,243 724,392"/>
@@ -20,7 +89,16 @@
     <polyline points="548,238 661,243 681,448 827,337 932,218 966,101"/>
   </g>
 
-  <g opacity="0.95" fill="#008a16">
+  <g class="web-flow network-drift" opacity="0.9" stroke="#00b323" stroke-width="1.45" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <polyline points="34,343 92,312 165,329 223,392 317,362 406,386 520,338 621,350 724,392 827,337 936,365 1038,320 1147,345 1266,314 1376,343"/>
+    <polyline points="94,313 154,427 224,392 318,363 406,386 452,272 548,238 621,350"/>
+    <polyline points="452,272 502,140 601,195 548,238 624,86 723,122 681,242 827,337"/>
+    <polyline points="932,218 966,101 1044,121 1116,195 1083,280 1147,345"/>
+    <polyline points="827,337 894,426 1004,402 1038,320 1116,412 1220,407 1266,314"/>
+    <polyline points="548,238 661,243 681,448 827,337 932,218 966,101"/>
+  </g>
+
+  <g class="web-nodes network-drift" opacity="0.95" fill="#008a16">
     <circle cx="34" cy="343" r="2.5"/><circle cx="92" cy="312" r="2.5"/><circle cx="165" cy="329" r="2.5"/><circle cx="223" cy="392" r="2.5"/>
     <circle cx="317" cy="362" r="2.5"/><circle cx="406" cy="386" r="2.5"/><circle cx="520" cy="338" r="2.5"/><circle cx="621" cy="350" r="2.5"/>
     <circle cx="724" cy="392" r="2.5"/><circle cx="827" cy="337" r="2.5"/><circle cx="936" cy="365" r="2.5"/><circle cx="1038" cy="320" r="2.5"/>
