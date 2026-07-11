@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="88" viewBox="0 0 1400 88" role="img" aria-label="Dark green network divider">
+  <rect width="1400" height="88" fill="#121010"/>
+  <g opacity="0.58" stroke="#008a16" stroke-width="1.1" fill="none">
+    <polyline points="0,58 77,36 151,49 223,20 303,51 382,31 462,59 540,25 621,46 701,22 781,57 861,37 940,62 1018,28 1099,47 1179,23 1261,54 1400,36"/>
+    <polyline points="77,36 151,49 303,51 462,59 621,46 781,57 940,62 1099,47 1261,54"/>
+    <polyline points="223,20 382,31 540,25 701,22 861,37 1018,28 1179,23"/>
+  </g>
+  <g fill="#008a16">
+    <circle cx="77" cy="36" r="2.4"/><circle cx="151" cy="49" r="2.4"/><circle cx="223" cy="20" r="2.4"/><circle cx="303" cy="51" r="2.4"/>
+    <circle cx="382" cy="31" r="2.4"/><circle cx="462" cy="59" r="2.4"/><circle cx="540" cy="25" r="2.4"/><circle cx="621" cy="46" r="2.4"/>
+    <circle cx="701" cy="22" r="2.4"/><circle cx="781" cy="57" r="2.4"/><circle cx="861" cy="37" r="2.4"/><circle cx="940" cy="62" r="2.4"/>
+    <circle cx="1018" cy="28" r="2.4"/><circle cx="1099" cy="47" r="2.4"/><circle cx="1179" cy="23" r="2.4"/><circle cx="1261" cy="54" r="2.4"/>
+  </g>
+</svg>

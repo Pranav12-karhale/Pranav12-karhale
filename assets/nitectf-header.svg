@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="520" viewBox="0 0 1400 520" role="img" aria-labelledby="title desc">
+  <title id="title">Pranav Karhale profile header</title>
+  <desc id="desc">Dark terminal themed GitHub README header with green connected network lines and white monospace text.</desc>
+  <rect width="1400" height="520" rx="4" fill="#121010"/>
+
+  <g opacity="0.48" stroke="#008a16" stroke-width="1.15" fill="none">
+    <polyline points="34,343 92,312 165,329 223,392 317,362 406,386 520,338 621,350 724,392 827,337 936,365 1038,320 1147,345 1266,314 1376,343"/>
+    <polyline points="54,201 94,313 154,427 230,391 253,497 348,470 406,386 431,493 548,493 621,350"/>
+    <polyline points="164,329 190,254 270,282 318,363 357,266 452,272 520,338 548,238 661,243 724,392"/>
+    <polyline points="452,272 502,140 601,195 548,238 624,86 723,122 681,242 827,337"/>
+    <polyline points="624,86 725,122 801,72 864,153 827,337 935,365"/>
+    <polyline points="801,72 781,146 865,153 932,218 1037,320"/>
+    <polyline points="932,218 966,101 1044,121 1116,195 1083,280 1147,345"/>
+    <polyline points="1044,121 1116,195 1215,166 1283,218 1266,314"/>
+    <polyline points="1116,195 1190,240 1283,218 1343,269 1376,343"/>
+    <polyline points="827,337 894,426 1004,402 1038,320 1116,412 1220,407 1266,314"/>
+    <polyline points="894,426 965,491 1004,402 1075,484 1116,412 1185,489 1220,407"/>
+    <polyline points="253,497 347,470 430,493 520,338 548,493 681,448 724,392"/>
+    <polyline points="94,313 154,427 224,392 318,363 406,386 452,272 548,238 621,350"/>
+    <polyline points="548,238 661,243 681,448 827,337 932,218 966,101"/>
+  </g>
+
+  <g opacity="0.95" fill="#008a16">
+    <circle cx="34" cy="343" r="2.5"/><circle cx="92" cy="312" r="2.5"/><circle cx="165" cy="329" r="2.5"/><circle cx="223" cy="392" r="2.5"/>
+    <circle cx="317" cy="362" r="2.5"/><circle cx="406" cy="386" r="2.5"/><circle cx="520" cy="338" r="2.5"/><circle cx="621" cy="350" r="2.5"/>
+    <circle cx="724" cy="392" r="2.5"/><circle cx="827" cy="337" r="2.5"/><circle cx="936" cy="365" r="2.5"/><circle cx="1038" cy="320" r="2.5"/>
+    <circle cx="1147" cy="345" r="2.5"/><circle cx="1266" cy="314" r="2.5"/><circle cx="1376" cy="343" r="2.5"/>
+    <circle cx="54" cy="201" r="2.5"/><circle cx="154" cy="427" r="2.5"/><circle cx="253" cy="497" r="2.5"/><circle cx="348" cy="470" r="2.5"/>
+    <circle cx="431" cy="493" r="2.5"/><circle cx="548" cy="493" r="2.5"/><circle cx="190" cy="254" r="2.5"/><circle cx="270" cy="282" r="2.5"/>
+    <circle cx="357" cy="266" r="2.5"/><circle cx="452" cy="272" r="2.5"/><circle cx="502" cy="140" r="2.5"/><circle cx="601" cy="195" r="2.5"/>
+    <circle cx="548" cy="238" r="2.5"/><circle cx="624" cy="86" r="2.5"/><circle cx="723" cy="122" r="2.5"/><circle cx="681" cy="242" r="2.5"/>
+    <circle cx="801" cy="72" r="2.5"/><circle cx="864" cy="153" r="2.5"/><circle cx="781" cy="146" r="2.5"/><circle cx="932" cy="218" r="2.5"/>
+    <circle cx="966" cy="101" r="2.5"/><circle cx="1044" cy="121" r="2.5"/><circle cx="1116" cy="195" r="2.5"/><circle cx="1083" cy="280" r="2.5"/>
+    <circle cx="1215" cy="166" r="2.5"/><circle cx="1283" cy="218" r="2.5"/><circle cx="1343" cy="269" r="2.5"/><circle cx="894" cy="426" r="2.5"/>
+    <circle cx="965" cy="491" r="2.5"/><circle cx="1004" cy="402" r="2.5"/><circle cx="1075" cy="484" r="2.5"/><circle cx="1116" cy="412" r="2.5"/>
+    <circle cx="1185" cy="489" r="2.5"/><circle cx="1220" cy="407" r="2.5"/>
+  </g>
+
+  <g font-family="Consolas, 'Courier New', monospace" fill="#f4f4f4">
+    <text x="36" y="50" font-size="20" font-weight="700">Command Center</text>
+    <text x="136" y="168" font-size="58" font-weight="900" letter-spacing="1">Pranav Karhale</text>
+    <text x="137" y="216" font-size="24" font-weight="700">B.Tech IT @ IIIT Allahabad</text>
+    <text x="137" y="268" font-size="21" font-weight="700">Full-stack developer | AI/ML builder | CP grinder | Quant enthusiast</text>
+    <text x="137" y="315" font-size="19" font-weight="700">Designing full-stack products with AI inside</text>
+    <text x="137" y="344" font-size="19" font-weight="700">Building LangGraph agents, RAG, and MCP systems</text>
+    <text x="137" y="373" font-size="19" font-weight="700">Shipping cloud-ready apps with Docker and Kubernetes</text>
+    <text x="137" y="402" font-size="19" font-weight="700">Solving CP problems to keep implementation speed sharp</text>
+  </g>
+
+  <g font-family="Consolas, 'Courier New', monospace" font-size="18" font-weight="700">
+    <text x="137" y="455" fill="#f4f4f4">Open to opportunities</text>
+    <text x="350" y="455" fill="#008a16">Prayagraj, India</text>
+    <text x="535" y="455" fill="#f4f4f4">AI Systems</text>
+    <text x="670" y="455" fill="#008a16">Build and Ship</text>
+  </g>
+</svg>

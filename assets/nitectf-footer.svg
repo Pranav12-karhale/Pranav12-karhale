@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="170" viewBox="0 0 1400 170" role="img" aria-labelledby="title desc">
+  <title id="title">Pranav Karhale footer</title>
+  <desc id="desc">Dark terminal footer with green network lines and IIIT Allahabad details.</desc>
+  <rect width="1400" height="170" fill="#121010"/>
+  <g opacity="0.58" stroke="#008a16" stroke-width="1.1" fill="none">
+    <polyline points="50,122 130,75 220,99 304,54 398,84 500,37 596,104 690,57 792,95 884,42 990,75 1088,34 1195,91 1348,60"/>
+    <polyline points="130,75 304,54 500,37 690,57 884,42 1088,34 1348,60"/>
+    <polyline points="220,99 398,84 596,104 792,95 990,75 1195,91"/>
+  </g>
+  <g fill="#008a16">
+    <circle cx="50" cy="122" r="2.4"/><circle cx="130" cy="75" r="2.4"/><circle cx="220" cy="99" r="2.4"/><circle cx="304" cy="54" r="2.4"/>
+    <circle cx="398" cy="84" r="2.4"/><circle cx="500" cy="37" r="2.4"/><circle cx="596" cy="104" r="2.4"/><circle cx="690" cy="57" r="2.4"/>
+    <circle cx="792" cy="95" r="2.4"/><circle cx="884" cy="42" r="2.4"/><circle cx="990" cy="75" r="2.4"/><circle cx="1088" cy="34" r="2.4"/>
+    <circle cx="1195" cy="91" r="2.4"/><circle cx="1348" cy="60" r="2.4"/>
+  </g>
+  <g font-family="Consolas, 'Courier New', monospace" text-anchor="middle" font-weight="700">
+    <text x="700" y="76" fill="#f4f4f4" font-size="22">Build useful things. Make systems clear. Automate the boring parts.</text>
+    <text x="700" y="113" fill="#008a16" font-size="18">IIIT Allahabad | B.Tech IT | Prayagraj, India</text>
+  </g>
+</svg>
