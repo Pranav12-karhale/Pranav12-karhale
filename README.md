@@ -78,7 +78,7 @@ Pranav Karhale
 
 $ cat about.txt
 B.Tech IT @ IIIT Allahabad
-Full-stack developer | AI/ML builder | CP grinder | Quant enthusiast
+Full-stack developer | AI/ML builder | CP grinder 
 
 $ git log --oneline --all
 a3f1b2c feat: LangGraph agents + RAG + MCP integrated systems
