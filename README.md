@@ -18,7 +18,7 @@
 ![IIIT Allahabad](https://img.shields.io/badge/IIIT%20Allahabad-B.Tech%20IT-121010?style=flat-square&logoColor=008a16&labelColor=121010)
 ![Location](https://img.shields.io/badge/Prayagraj%2C%20India-121010?style=flat-square&logo=googlemaps&logoColor=008a16&labelColor=121010)
 ![Open to work](https://img.shields.io/badge/Open%20to%20opportunities-008a16?style=flat-square&labelColor=121010)
-![Quant](https://img.shields.io/badge/Quant%20enthusiast-121010?style=flat-square&logo=chartdotjs&logoColor=008a16&labelColor=121010)
+<!--![Quant](https://img.shields.io/badge/Quant%20enthusiast-121010?style=flat-square&logo=chartdotjs&logoColor=008a16&labelColor=121010)-->
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Pranav12-karhale.Pranav12-karhale&left_color=121010&right_color=008a16)
 
 </div>
