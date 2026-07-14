@@ -118,7 +118,7 @@
     <text x="36" y="50" font-size="20" font-weight="700">Command Center</text>
     <text x="136" y="168" font-size="58" font-weight="900" letter-spacing="1">Pranav Karhale</text>
     <text x="137" y="216" font-size="24" font-weight="700">B.Tech IT @ IIIT Allahabad</text>
-    <text x="137" y="268" font-size="21" font-weight="700">Full-stack developer | AI/ML builder | CP grinder | Quant enthusiast</text>
+    <text x="137" y="268" font-size="21" font-weight="700">Full-stack developer | AI/ML builder | CP grinder </text>
     <text x="137" y="315" font-size="19" font-weight="700">Designing full-stack products with AI inside</text>
     <text x="137" y="344" font-size="19" font-weight="700">Building LangGraph agents, RAG, and MCP systems</text>
     <text x="137" y="373" font-size="19" font-weight="700">Shipping cloud-ready apps with Docker and Kubernetes</text>
