@@ -25,7 +25,7 @@
 
 </div>
 
-<img src="./assets/divider.svg" width="100%" alt="Green network divider" />
+<img src="./assets/divider1.svg" width="100%" alt="Green network divider" />
 
 ## Command Center
 
@@ -388,5 +388,5 @@ Currently grinding <b>400+ problems</b> across platforms.
 ---
 
 <div align="center">
-  <img src="./assets/footer.svg" width="100%" alt="Dark green network footer" />
+  <img src="./assets/footer1.svg" width="100%" alt="Dark green network footer" />
 </div>
