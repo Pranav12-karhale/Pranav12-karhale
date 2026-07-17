@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-// ═══ DATA ═══
+//data
 const baseNodes = [
   [34,343],[92,312],[165,329],[223,392],[317,362],       // 0-4
   [406,386],[520,338],[621,350],[724,392],[827,337],      // 5-9
@@ -57,7 +57,7 @@ const CIRCLE_COUNT = 49; // indices 0-48 get visible circles
 const K = 11;            // more keyframes = more varied random paths
 const DUR = '15s';       // faster cycle
 
-// ═══ PSEUDO-RANDOM (multi-hash for better distribution) ═══
+//RANDOM (multi-hash for better distribution)
 function prand(seed) {
   let x = Math.sin(seed * 127.1 + 311.7) * 43758.5453;
   x = Math.sin(x * 269.3 + 183.1) * 28461.7231;
@@ -74,7 +74,7 @@ function offset(ni, ki, axis) {
   return Math.round((r * 2 - 1) * amp);
 }
 
-// ═══ PRECOMPUTE ═══
+// precompute
 const pos = baseNodes.map((b, ni) =>
   Array.from({ length: K }, (_, ki) => [
     b[0] + offset(ni, ki, 'x'),
@@ -89,7 +89,7 @@ const keyTimes = Array.from({ length: K }, (_, i) =>
 const spline = '0.42 0 0.58 1';
 const keySplines = Array(K - 1).fill(spline).join(';');
 
-// ═══ GENERATORS ═══
+// generators
 function animatePolyline(indices) {
   const basePoints = indices.map(n => `${baseNodes[n][0]},${baseNodes[n][1]}`).join(' ');
   const vals = Array.from({ length: K }, (_, ki) =>
@@ -113,7 +113,7 @@ function animateCircle(ni, r) {
   return `<circle cx="${bx}" cy="${by}" r="${r}">${anim}</circle>`;
 }
 
-// ═══ BUILD SVG ═══
+// build svg
 const L = [];
 const push = s => L.push(s);
 
