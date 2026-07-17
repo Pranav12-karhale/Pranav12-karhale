@@ -388,5 +388,5 @@ Currently grinding <b>400+ problems</b> across platforms.
 ---
 
 <div align="center">
-  <img src="./assets/nitectf-footer.svg" width="100%" alt="Dark green network footer" />
+  <img src="./assets/footer.svg" width="100%" alt="Dark green network footer" />
 </div>
