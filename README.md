@@ -25,7 +25,7 @@
 
 </div>
 
-<img src="./assets/nitectf-divider.svg" width="100%" alt="Green network divider" />
+<img src="./assets/divider.svg" width="100%" alt="Green network divider" />
 
 ## Command Center
 
