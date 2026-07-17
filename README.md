@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="./assets/nitectf-header.svg" width="100%" alt="Pranav Karhale dark neon green network header" />
+<picture>
+  <img src="./assets/header.svg" alt="Pranav Karhale - Full-stack developer, AI/ML builder" width="100%" />
+</picture>
 
 <br />
 <br />
