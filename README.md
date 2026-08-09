@@ -32,7 +32,7 @@
 <table>
   <tr>
     <td width="58%" valign="top">
-      <h3>Builder profile</h3>
+      <h3>Profile</h3>
       <p>
         I build <b>production-ready full-stack products</b> and explore the intersection of
         <b>AI agents</b>, <b>RAG</b>, <b>MCP tooling</b>, cloud infrastructure, and fast problem solving.
