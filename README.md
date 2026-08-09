@@ -125,12 +125,10 @@ a3f1b2c feat: LangGraph agents + RAG + MCP integrated systems
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=121010&height=82&section=header&text=Currently%20Building&fontSize=28&fontColor=f4f4f4&fontAlignY=54" width="100%" alt="Currently building section banner" />
 
-## Currently Building
-
-<table>
+<table align="center">
   <tr>
     <td width="50%" valign="top">
-      <h3>Active focus</h3>
+      <h3 align="center">Active focus</h3>
       <ul>
         <li>LangGraph agents with RAG-backed workflows</li>
         <li>MCP-integrated systems and tool orchestration</li>
@@ -139,7 +137,7 @@ a3f1b2c feat: LangGraph agents + RAG + MCP integrated systems
       </ul>
     </td>
     <td width="50%" valign="top">
-      <h3>Learning loop</h3>
+      <h3 align="center">Learning loop</h3>
       <ul>
         <li>Build small, ship quickly, measure behavior</li>
         <li>Turn notes into reusable systems</li>
@@ -153,17 +151,17 @@ a3f1b2c feat: LangGraph agents + RAG + MCP integrated systems
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h3>Designing</h3>
+      <h3 align="center">Designing</h3>
       <p>Interfaces and workflows that feel clear, fast, and useful from the first click.</p>
       <img src="https://img.shields.io/badge/UI-Product%20Thinking-008a16?style=flat-square&labelColor=121010" alt="UI product thinking" />
     </td>
     <td width="33%" valign="top">
-      <h3>Automating</h3>
+      <h3 align="center">Automating</h3>
       <p>Agentic workflows that connect tools, memory, retrieval, and decision logic.</p>
       <img src="https://img.shields.io/badge/Agents-Tool%20Orchestration-121010?style=flat-square&logoColor=008a16&labelColor=121010" alt="Agent tool orchestration" />
     </td>
     <td width="33%" valign="top">
-      <h3>Deploying</h3>
+      <h3 align="center">Deploying</h3>
       <p>Cloud-ready systems with containers, observability habits, and clean APIs.</p>
       <img src="https://img.shields.io/badge/Cloud-Production%20Mindset-008a16?style=flat-square&labelColor=121010" alt="Production mindset" />
     </td>
@@ -172,12 +170,10 @@ a3f1b2c feat: LangGraph agents + RAG + MCP integrated systems
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=121010&height=82&section=header&text=Tech%20Stack&fontSize=28&fontColor=f4f4f4&fontAlignY=54" width="100%" alt="Tech stack section banner" />
 
-## Tech Stack
-
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>Frontend</h3>
+      <h3 align="center">Frontend</h3>
       <p>
         <img src="https://img.shields.io/badge/Flutter-121010?style=for-the-badge&logo=flutter&logoColor=008a16&labelColor=121010" alt="Flutter" />
         <img src="https://img.shields.io/badge/TypeScript-121010?style=for-the-badge&logo=typescript&logoColor=008a16&labelColor=121010" alt="TypeScript" />
@@ -185,7 +181,7 @@ a3f1b2c feat: LangGraph agents + RAG + MCP integrated systems
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>Backend and languages</h3>
+      <h3 align="center">Backend and languages</h3>
       <p>
         <img src="https://img.shields.io/badge/Node.js-121010?style=for-the-badge&logo=nodedotjs&logoColor=008a16&labelColor=121010" alt="Node.js" />
         <img src="https://img.shields.io/badge/Express-121010?style=for-the-badge&logo=express&logoColor=008a16&labelColor=121010" alt="Express" />
@@ -197,7 +193,7 @@ a3f1b2c feat: LangGraph agents + RAG + MCP integrated systems
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>AI / ML</h3>
+      <h3 align="center">AI / ML</h3>
       <p>
         <img src="https://img.shields.io/badge/LangChain-121010?style=for-the-badge&logo=langchain&logoColor=008a16&labelColor=121010" alt="LangChain" />
         <img src="https://img.shields.io/badge/LangGraph-121010?style=for-the-badge&logoColor=008a16&labelColor=121010" alt="LangGraph" />
@@ -206,7 +202,7 @@ a3f1b2c feat: LangGraph agents + RAG + MCP integrated systems
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>Infra, cloud, and data</h3>
+      <h3 align="center">Infra, cloud, and data</h3>
       <p>
         <img src="https://img.shields.io/badge/PostgreSQL-121010?style=for-the-badge&logo=postgresql&logoColor=008a16&labelColor=121010" alt="PostgreSQL" />
         <img src="https://img.shields.io/badge/Docker-121010?style=for-the-badge&logo=docker&logoColor=008a16&labelColor=121010" alt="Docker" />
@@ -249,18 +245,16 @@ a3f1b2c feat: LangGraph agents + RAG + MCP integrated systems
 
 <img src="https://capsule-render.vercel.app/api?type=rect&color=121010&height=82&section=header&text=Project%20Showroom&fontSize=28&fontColor=f4f4f4&fontAlignY=54" width="100%" alt="Project showroom section banner" />
 
-## Project Showroom
-
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/Pranav12-karhale/Resilia">Resilia</a></h3>
-      <p><b>Adaptive Supply Chain Platform</b></p>
-      <p>
+      <h3 align="center"><a href="https://github.com/Pranav12-karhale/Resilia">Resilia</a></h3>
+      <p align="center"><b>Adaptive Supply Chain Platform</b></p>
+      <p align="center">
         AI-driven resilience engine with LangGraph agents and RAG-based disruption response.
         Built for real-time decision support across a Flutter + Node.js stack.
       </p>
-      <p>
+      <p align="center">
         <img src="https://img.shields.io/badge/LangGraph-121010?style=flat-square&logoColor=008a16&labelColor=121010" alt="LangGraph" />
         <img src="https://img.shields.io/badge/ChromaDB-121010?style=flat-square&logoColor=008a16&labelColor=121010" alt="ChromaDB" />
         <img src="https://img.shields.io/badge/Flutter-121010?style=flat-square&logo=flutter&logoColor=008a16&labelColor=121010" alt="Flutter" />
@@ -271,13 +265,13 @@ a3f1b2c feat: LangGraph agents + RAG + MCP integrated systems
       </a>
     </td>
     <td width="50%" valign="top">
-      <h3><a href="https://github.com/Pranav12-karhale/Oasis">Oasis</a></h3>
-      <p><b>Dynamic Health Suggestion Platform</b></p>
-      <p>
+      <h3 align="center"><a href="https://github.com/Pranav12-karhale/Oasis">Oasis</a></h3>
+      <p align="center"><b>Dynamic Health Suggestion Platform</b></p>
+      <p align="center">
         Health-focused suggestion platform designed around adaptive recommendations,
         practical user guidance, and product-friendly decision flows.
       </p>
-      <p>
+      <p align="center">
         <img src="https://img.shields.io/badge/HealthTech-121010?style=flat-square&logoColor=008a16&labelColor=121010" alt="HealthTech" />
         <img src="https://img.shields.io/badge/Platform-121010?style=flat-square&logoColor=008a16&labelColor=121010" alt="Platform" />
         <img src="https://img.shields.io/badge/Product-008a16?style=flat-square&labelColor=121010" alt="Product" />
@@ -292,24 +286,24 @@ a3f1b2c feat: LangGraph agents + RAG + MCP integrated systems
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h3>AI systems lab</h3>
-      <p>Agents, retrieval, tool use, graph workflows, and product-grade automation experiments.</p>
+      <h3 align="center">AI systems lab</h3>
+      <p align="center">Agents, retrieval, tool use, graph workflows, and product-grade automation experiments.</p>
       <img src="https://img.shields.io/badge/Status-Iterating-008a16?style=flat-square&labelColor=121010" alt="Iterating" />
     </td>
     <td width="33%" valign="top">
-      <h3>Cloud operations</h3>
-      <p>Containerized services, deployment pipelines, and observability-minded architecture.</p>
+      <h3 align="center">Cloud operations</h3>
+      <p align="center">Containerized services, deployment pipelines, and observability-minded architecture.</p>
       <img src="https://img.shields.io/badge/Status-Deploying-121010?style=flat-square&logoColor=008a16&labelColor=121010" alt="Deploying" />
     </td>
     <td width="33%" valign="top">
-      <h3>Problem solving</h3>
-      <p>Algorithm practice translated into cleaner implementation habits and faster debugging.</p>
+      <h3 align="center">Problem solving</h3>
+      <p align="center">Algorithm practice translated into cleaner implementation habits and faster debugging.</p>
       <img src="https://img.shields.io/badge/Status-Grinding-008a16?style=flat-square&labelColor=121010" alt="Grinding" />
     </td>
   </tr>
 </table>
 
-## Competitive Programming
+<h1 align="center">Competitive Programming</h1>
 
 <div align="center">
 
@@ -334,7 +328,7 @@ a3f1b2c feat: LangGraph agents + RAG + MCP integrated systems
 <summary><b>Problem-solving focus</b></summary>
 <br />
 
-Currently grinding <b>400+ problems</b> across platforms.
+Currently grinding <b>500+ problems</b> across platforms.
 
 | Focus area | What I practice |
 |---|---|
@@ -345,32 +339,32 @@ Currently grinding <b>400+ problems</b> across platforms.
 
 </details>
 
-## Interests
+<h1 align="center">Interests</h1>
 
 <table>
   <tr>
     <td width="25%" valign="top">
-      <h3>Competitive programming</h3>
-      <p>C++ heavy practice across graphs, DP, greedy, and geometry.</p>
+      <h3 align="center">Competitive programming</h3>
+      <p align="center">C++ heavy practice across graphs, DP, greedy, and geometry.</p>
     </td>
     <td width="25%" valign="top">
-      <h3>Systems and infra</h3>
-      <p>Kubernetes, MCP architecture, RAG architecture, and agentic systems.</p>
+      <h3 align="center">Systems and infra</h3>
+      <p align="center">Kubernetes, MCP architecture, RAG architecture, and agentic systems.</p>
     </td>
     <td width="25%" valign="top">
-      <h3>Android development</h3>
-      <p>Mobile product ideas and Flutter workflows.</p>
+      <h3 align="center">Android development</h3>
+      <p align="center">Mobile product ideas and Flutter workflows.</p>
     </td>
     <td width="25%" valign="top">
-      <h3>Quant trading</h3>
-      <p>Algorithmic strategies, TradingView, and disciplined backtesting.</p>
+      <h3 align="center">Quant trading</h3>
+      <p align="center">Algorithmic strategies, TradingView, and disciplined backtesting.</p>
     </td>
   </tr>
 </table>
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&duration=2600&pause=900&color=008A16&center=true&vCenter=true&width=1000&lines=Build+useful+things.;Make+systems+clear.;Automate+the+boring+parts.;Keep+learning+in+public." width="100%" alt="Animated motto" />
 
-## Lets Connect
+<h1 align="center">Lets Connect</h1>
 
 <div align="center">
 
