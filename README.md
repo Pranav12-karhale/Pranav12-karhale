@@ -199,6 +199,7 @@ a3f1b2c feat: LangGraph agents + RAG + MCP integrated systems
         <img src="https://img.shields.io/badge/LangGraph-121010?style=for-the-badge&logoColor=008a16&labelColor=121010" alt="LangGraph" />
         <img src="https://img.shields.io/badge/ChromaDB-121010?style=for-the-badge&logoColor=008a16&labelColor=121010" alt="ChromaDB" />
         <img src="https://img.shields.io/badge/LangSmith-121010?style=for-the-badge&logoColor=008a16&labelColor=121010" alt="LangSmith" />
+        <img src="https://img.shields.io/badge/TensorFlow-121010?style=for-the-badge&logoColor=008a16&labelColor=121010" alt="TensorFlow" />
       </p>
     </td>
     <td width="50%" valign="top">
