@@ -210,6 +210,9 @@ a3f1b2c feat: LangGraph agents + RAG + MCP integrated systems
         <img src="https://img.shields.io/badge/Kubernetes-121010?style=for-the-badge&logo=kubernetes&logoColor=008a16&labelColor=121010" alt="Kubernetes" />
         <img src="https://img.shields.io/badge/AWS-121010?style=for-the-badge&logo=amazonaws&logoColor=008a16&labelColor=121010" alt="AWS" />
         <img src="https://img.shields.io/badge/Firebase-121010?style=for-the-badge&logo=firebase&logoColor=008a16&labelColor=121010" alt="Firebase" />
+        <img src="https://img.shields.io/badge/GCP-121010?style=for-the-badge&logo=amazonaws&logoColor=008a16&labelColor=121010" alt="GCP" />
+        <img src="https://img.shields.io/badge/Azure-121010?style=for-the-badge&logo=amazonaws&logoColor=008a16&labelColor=121010" alt="Azure" />
+        <img src="https://img.shields.io/badge/Render-121010?style=for-the-badge&logo=amazonaws&logoColor=008a16&labelColor=121010" alt="Render" />
       </p>
     </td>
   </tr>
