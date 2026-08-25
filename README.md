@@ -34,12 +34,15 @@
     <td width="58%" valign="top">
       <h3>Profile</h3>
       <p>
-        I build <b>production-ready full-stack products</b> and explore the intersection of
-        <b>AI agents</b>, <b>RAG</b>, <b>MCP tooling</b>, cloud infrastructure, and fast problem solving.
+        Undergraduate student at Indian Institute of Information
+Technology, Allahabad , pursuing B.Tech in Information
+Technology. Interested in Generative DL, CyberSec,
+Quantitative Finance and experienced in Building real-time
+Agentic Systems.
       </p>
       <p>
-        My current lane is practical systems: ideas that can become usable products,
-        workflows that can be automated, and code that survives outside a demo.
+        I build <b>production-ready full-stack products</b> and explore the intersection of
+        <b>AI agents</b>, <b>RAG</b>, cloud infrastructure, and fast problem solving.
       </p>
       <p>
         <img src="https://img.shields.io/badge/Focus-AI%20Systems-121010?style=flat-square&logoColor=008a16&labelColor=121010" alt="AI systems focus" />
