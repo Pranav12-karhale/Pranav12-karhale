@@ -370,6 +370,7 @@ Currently grinding <b>500+ problems</b> across platforms.
 <h1 align="center">Lets Connect</h1>
 
 <div align="center">
+  
 [![Portfolio](https://img.shields.io/badge/Portfolio-121010?style=for-the-badge&logo=googlechrome&logoColor=008a16&labelColor=121010)](https://portfolio2-8m3v.onrender.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-121010?style=for-the-badge&logo=linkedin&logoColor=008a16&labelColor=121010)](https://www.linkedin.com/in/pranav-karhale-1191b2381)
 [![Gmail](https://img.shields.io/badge/Personal%20Email-121010?style=for-the-badge&logo=gmail&logoColor=008a16&labelColor=121010)](mailto:casualuse1045@gmail.com)
