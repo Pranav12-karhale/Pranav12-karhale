@@ -34,15 +34,11 @@
     <td width="58%" valign="top">
       <h3>Profile</h3>
       <p>
-        Undergraduate student at Indian Institute of Information
-Technology, Allahabad , pursuing B.Tech in Information
-Technology. Interested in Generative DL, CyberSec,
-Quantitative Finance and experienced in Building real-time
-Agentic Systems.
-      </p>
-      <p>
-        I build <b>production-ready full-stack products</b> and explore the intersection of
-        <b>AI agents</b>, <b>RAG</b>, cloud infrastructure, and fast problem solving.
+        B.Tech Information Technology student at IIIT Allahabad focused on Data Structures and Algorithms,
+software engineering, backend development, databases, and cloud computing, Artificial Intelligence, Machine Learning, Generative
+AI, Deep Learning, Agentic AI, NLP, and Retrieval-Augmented Generation. Experienced in developing scalable software
+and AI solutions, with a focus on Agentic AI, Large Language Models, multi-agent systems, hybrid retrieval pipelines, and real-time machine learning solutions. Demonstrated strength
+in competitive programming, algorithmic problem solving, and building end-to-end technical solutions.
       </p>
       <p>
         <img src="https://img.shields.io/badge/Focus-AI%20Systems-121010?style=flat-square&logoColor=008a16&labelColor=121010" alt="AI systems focus" />
@@ -374,7 +370,7 @@ Currently grinding <b>500+ problems</b> across platforms.
 <h1 align="center">Lets Connect</h1>
 
 <div align="center">
-
+[![Portfolio](https://img.shields.io/badge/Portfolio-121010?style=for-the-badge&logo=googlechrome&logoColor=008a16&labelColor=121010)](https://portfolio2-8m3v.onrender.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-121010?style=for-the-badge&logo=linkedin&logoColor=008a16&labelColor=121010)](https://www.linkedin.com/in/pranav-karhale-1191b2381)
 [![Gmail](https://img.shields.io/badge/Personal%20Email-121010?style=for-the-badge&logo=gmail&logoColor=008a16&labelColor=121010)](mailto:casualuse1045@gmail.com)
 [![College Mail](https://img.shields.io/badge/College%20Email-121010?style=for-the-badge&logo=gmail&logoColor=008a16&labelColor=121010)](mailto:iit2024048@iiita.ac.in)
