@@ -55,7 +55,7 @@ in competitive programming, algorithmic problem solving, and building end-to-end
         </tr>
         <tr>
           <td><b>Now</b></td>
-          <td>LangGraph, RAG, MCP, Kubernetes</td>
+          <td>LangGraph, RAG, Kubernetes</td>
         </tr>
         <tr>
           <td><b>Practice</b></td>
