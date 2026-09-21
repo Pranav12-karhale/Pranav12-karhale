@@ -365,7 +365,7 @@ Currently grinding <b>500+ problems</b> across platforms.
   </tr>
 </table>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&duration=2600&pause=900&color=008A16&center=true&vCenter=true&width=1000&lines=Build+useful+things.;Make+systems+clear.;Automate+the+boring+parts.;Keep+learning+in+public." width="100%" alt="Animated motto" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&duration=2600&pause=900&color=008A16&center=true&vCenter=true&width=1000&lines=Build+useful+things.;Make+systems+clear.;Keep+learning." width="100%" alt="Animated motto" />
 
 <h1 align="center">Lets Connect</h1>
 
